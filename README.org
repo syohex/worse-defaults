@@ -1,0 +1,33 @@
+
+* worse-defaults
+  Things in this package represent better (worse?) default settings
+  for many things that Emacs ships with.
+
+  This defaults are also somewhat opinionated, which might not be
+  acceptable for everyone, hence =worse= in the title.
+
+** What is included?
+   In short, a lot. This is definitely not one of those minimalist
+   packages that try to find the golden middle between sensible and
+   practical, use [[https://github.com/technomancy/better-defaults][better-defaults]] if you prefer something like that.
+
+   You should really take a look at the source file on [[https://github.com/hydandata/worse-defaults/worse-defaults.el][GitHub]] and read
+   the comments, there are plenty of them.
+
+** What is *not* included?
+   No configuration is included for =Ido= or =Ibuffer= or anything like
+   that. This is done on purpose, because you should use [[https://github.com/emacs-helm/helm][Helm]], really
+   it is indispensable! And if you are not using Helm, it is quite
+   likely you have way more =Ido= configuration anyway, and you can
+   keep all of it in one place.
+
+** Installation
+   Clone this repository, add it to your load path and =(require
+   'worse-defaults)= from your =.emacs=.
+
+   Ideally, you would require this as early in your =.emacs= as
+   possible in order to keep access to all those nifty defaults when
+   something else goes wrong in the init file.
+
+** License
+   [[http://www.gnu.org/licenses/gpl-3.0.en.html][GNU GPL]]
