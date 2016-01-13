@@ -373,4 +373,6 @@
 ;;; Ido mode or ibuffer configuration is not included on purpose,
 ;;; because you should use Helm, you really should!
 
+(provide 'worse-defaults)
+
 ;;; worse-defaults.el ends here
