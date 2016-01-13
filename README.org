@@ -14,6 +14,9 @@
    You should really take a look at the source file on [[https://github.com/hydandata/worse-defaults/blob/master/worse-defaults.el][GitHub]] and read
    the comments, there are plenty of them.
 
+   A convenience function =goto-matching-paren= is also provided, it
+   is bound to =C-c {=.
+
 ** What is *not* included?
    No configuration is included for =Ido= or =Ibuffer= or anything like
    that. This is done on purpose, because you should use [[https://github.com/emacs-helm/helm][Helm]], really
