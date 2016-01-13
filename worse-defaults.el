@@ -204,7 +204,7 @@
 
 ;;; Make sure recentf does not display obviously useless stuff in ~/.emacs.d.
 (setq recentf-exclude
-      '("~/.emacs.d/elpa/"
+      '("emacs.d/elpa/"
         "\\.last\\'"))
 
 (recentf-mode 1)
