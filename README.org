@@ -11,7 +11,7 @@
    packages that try to find the golden middle between sensible and
    practical, use [[https://github.com/technomancy/better-defaults][better-defaults]] if you prefer something like that.
 
-   You should really take a look at the source file on [[https://github.com/hydandata/worse-defaults/worse-defaults.el][GitHub]] and read
+   You should really take a look at the source file on [[https://github.com/hydandata/worse-defaults/blob/master/worse-defaults.el][GitHub]] and read
    the comments, there are plenty of them.
 
 ** What is *not* included?
