@@ -373,6 +373,12 @@
 ;;; Ido mode or ibuffer configuration is not included on purpose,
 ;;; because you should use Helm, you really should!
 
+;;;###autoload
+(when load-file-name
+  (add-to-list
+   'load-path
+   (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide 'worse-defaults)
 
 ;;; worse-defaults.el ends here
