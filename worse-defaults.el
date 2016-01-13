@@ -2,11 +2,11 @@
 
 ;;; Copyright (C) 2016 David Chkhikvadze
 
-;; Author: David Chkhikvadze <david.chk@outlook.com>
-;; Maintainer: David Chkhikvadze <david.chk@outlook.com>
-;; Version: 0.0.1
-;; Created: 13th January 2016
-;; Keywords: defaults
+;;; Author: David Chkhikvadze <david.chk@outlook.com>
+;;; Maintainer: David Chkhikvadze <david.chk@outlook.com>
+;;; Version: 0.0.1
+;;; Created: 13th January 2016
+;;; Keywords: defaults
 
 ;;; This file is NOT part of GNU Emacs.
 
