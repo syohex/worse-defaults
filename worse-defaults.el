@@ -216,7 +216,7 @@
 (setq bookmark-save-flag 1)
 
 ;;; Treat selection "normally" overwrite and delete selected text like
-;;; other editors
+;;; other editors.
 (delete-selection-mode 1)
 (transient-mark-mode 1)
 (make-variable-buffer-local 'transient-mark-mode)
@@ -273,8 +273,8 @@
 ;;; Use UTC for log file time stamps.
 (setq add-log-time-zone-rule t)
 
-;;; File-local variables can be dangerous there is no telling what
-;;; local variables list from third-party file could do to your Emacs
+;;; File-local variables can be dangerous. There is no telling what
+;;; local variables list from third-party file could do to your Emacs.
 ;;; This option enables loadig of safe ones everything else will issue
 ;;; a prompt.
 (setq enable-local-variables :safe)
